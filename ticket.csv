@@ -1,0 +1,28 @@
+ticket_id,title,category,description,ticket_notes,inserted_date,updated_date,ticket_status_id,requested_by,assigned_app_user_id,active_flag
+1,Ticket Table,SQL Development,Create a table to hold the ticket records,,4/7/2022,4/10/2022,3,web-form,10,1
+2,Ticket Status Table,SQL Development,Create a table to hold the ticket status,,4/8/2022,4/10/2022,3,Tim Bullock,10,1
+3,App User Table,SQL Development,Create a table to hold the app users,,4/7/2022,4/10/2022,3,Derek Mueller,9,1
+4,App User Status Table,SQL Development,Create a table to hold the app users status,,4/8/2022,4/10/2022,3,Tim Bullock,9,1
+5,Date Dimension Table,SQL Development,Create a date dimension table,,4/8/2022,4/10/2022,3,Derek Mueller,7,1
+6,SP - DeleteTicket,SQL Development,Create a SP that will delete tickets from the UI be setting the active flag to 0.,This should not actually delete the ticket records from the database.,4/8/2022,4/10/2022,3,Tim Bullock,11,1
+7,SP - GetOneTicket,SQL Development,Create a SP that will get a ticket record be Id,,4/7/2022,4/10/2022,3,Derek Mueller,11,1
+8,SP - GetTickets,SQL Development,Create a SP that will get all active tickets,,4/7/2022,4/10/2022,3,Derek Mueller,11,1
+9,SP - GetTicketStatus,SQL Development,Create a SP that will get all ticket status's,,4/7/2022,4/10/2022,3,Derek Mueller,11,1
+10,SP - InsertTicket,SQL Development,Create a SP that will insert a ticket,,4/10/2022,4/15/2022,3,Lane Dever,1,1
+11,SP - TicketAnalytics,SQL Development,Create a Sp that will return analytic results back to the UI for the ticket records,,4/10/2022,4/15/2022,3,Derek Mueller,8,1
+12,SP - TicketCount,SQL Development,Create a SP that will get the count of all tickets by status and user,,4/10/2022,4/15/2022,3,Tim Bullock,8,1
+13,SP - UnhandledTickets,SQL Development,Create a SP that will count the number of unhandled tickets,,4/10/2022,4/15/2022,3,Tim Bullock,8,1
+14,SP - UpdateTicket,SQL Development,Create a SP to update a ticket record,,4/10/2022,4/15/2022,3,Lane Dever,1,1
+15,SP - GetAppUsers,SQL Development,Create a SP to get a list of all active App Users,,4/16/2022,4/21/2022,3,Tim Bullock,11,1
+16,SP - GetOneAppUsers,SQL Development,Create a SP that will get one App User by Id,,4/16/2022,4/21/2022,3,Derek Mueller,11,1
+17,SP - InsertAppUsers,SQL Development,Create a SP that will insert new App Users ,,4/16/2022,4/21/2022,3,Lane Dever,1,1
+18,SP - UpdateAppUsers,SQL Development,Create a SP that will update a App User record,,4/16/2022,4/21/2022,3,Lane Dever,1,1
+19,Code - Add comments,DotNet Development,Go through the code and make sure it is clear what is happening,,4/16/2022,4/21/2022,1,Lane Dever,1,1
+20,Code - Check Datatypes,DotNet Development,Make sure the correct Data types are used,,4/16/2022,4/21/2022,3,Lane Dever,1,1
+21,Create document guide,DotNet Development,Create a document to assist a non technical person to install application,,4/16/2022,4/21/2022,3,Lane Dever,1,1
+22,Create a Login Page,DotNet Development,Create a login Page for the app,,4/16/2022,4/21/2022,7,Lane Dever,1,1
+23,TicketList,DotNet Development,Create a page to list tickets,,4/16/2022,4/21/2022,6,Lane Dever,1,1
+24,TicketEdit,DotNet Development,Create a page to edit tickets,,4/22/2022,4/23/2022,6,Lane Dever,1,1
+25,UserList,DotNet Development,Create a page to list users,,4/22/2022,4/24/2022,6,Lane Dever,1,1
+26,UserEdit,DotNet Development,Create a page to edit users,,4/22/2022,4/25/2022,6,Lane Dever,1,1
+27,Analytics,DotNet Development,Create a page for analytics,,4/22/2022,4/26/2022,6,Lane Dever,1,1

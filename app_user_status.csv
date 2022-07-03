@@ -1,0 +1,3 @@
+app_user_status_id,code,name,description,active_flag
+1,ACTIVE,Active,The app user is active,1
+2,INACTIVE,Inactive,The app user is not active,1

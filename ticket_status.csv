@@ -1,0 +1,8 @@
+ticket_status_id,code,name,description,active_flag,active_status_id,completed_status_id,cancelled_status_id
+1,NEW,New,Ticket is new and has not been acknowledged,1,1,0,0
+2,ACKNOWLEDGED,Acknowledged,Ticket has been acknowledged but not yet been worked,1,1,0,0
+3,IN_PROGRESS,In Progress,Ticket is actively being worked,1,1,0,0
+4,PENDING,Pending,Ticket is pending,1,1,0,0
+5,CLOSED,Closed,Ticket is no longer active,1,0,1,0
+6,COMPLETED,Completed,Ticket has been completed,1,0,1,0
+7,CANCELLED,Cancelled,Ticket has been cancelled,1,0,0,1
